@@ -183,8 +183,10 @@ span{
   display: inline;
 }
 
-.service h2{
+.services h2{
   margin-bottom: 5rem;
+  font-size: 3rem;
+
 
 }
 .services-container{
@@ -231,6 +233,7 @@ span{
 
 .portfolio h2{
   margin-bottom: 4rem;
+  font-size: 3rem;
 }
 
 .portfolio-container {
@@ -243,7 +246,7 @@ span{
 .portfolio-container .portfolio-box{
   position: relative;
   border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
+  box-shadow: 0 0 1rem #fff;
   overflow: hidden;
   display: flex;
 }
@@ -262,7 +265,7 @@ span{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(74, 13, 13, 0.1), var(--main-color));
+  background: linear-gradient(rgba(74, 13, 13, 0.1), #000);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,7 +293,7 @@ span{
   align-items: center;
   width: 5rem;
   height: 5rem;
-  background: var(--text-color);
+  background: #fff;
   border-radius: 50%;
 
 }
@@ -298,6 +301,7 @@ span{
 .portfolio-layer a i{
   font-size: 2rem;
   color: var(--snd-bf-color);
+  /* color: #000; */
 
 }
 
@@ -305,6 +309,7 @@ span{
 
 .contact h2{
   margin-bottom: 3rem;
+  font-size: 3rem;
 }
 .contact form{
   max-width: 70rem;

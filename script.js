@@ -25,7 +25,7 @@ menuIcon.onclick = () =>{
   
 
   })
-/* ........... scroll section sctive list ...........*/
+/* ........... scroll section active list ...........*/
 
 let section =document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -74,7 +74,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'right'});
 
 
 /* ....... typed js .........*/
-const typed = new Typed('.multiple-text', {
+const typed = new typed('.multiple-text', {
   strings: ['Frontend developer', 'Web designer', 'Student'], 
   typeSpeed: 70,
   backSpeed: 70,
